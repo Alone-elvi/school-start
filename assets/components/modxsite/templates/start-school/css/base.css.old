@@ -1,0 +1,132 @@
+/* #Reset & Basics (Inspired by E. Meyers)
+================================================== */
+	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+		margin: 0;
+		padding: 0;
+		border: 0;
+		font-size: 100%;
+		font: inherit;
+		vertical-align: baseline; }
+	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+		display: block; }
+	body {
+		line-height: 1; }
+	ol, ul {
+		list-style: none; }
+	blockquote, q {
+		quotes: none; }
+	blockquote:before, blockquote:after,
+	q:before, q:after {
+		content: '';
+		content: none; }
+	table {
+		border-collapse: collapse;
+		border-spacing: 0; }
+		:focus { outline:0; }
+        
+
+/* #Basic Styles
+================================================== */
+
+	body {
+		background: #F3F3F3;
+		font: 14px/22px 'Roboto', Trebuchet MS, Helvetica, Arial, sans-serif;
+		color: #404040;
+		font-weight:400;
+		-webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
+		-webkit-text-size-adjust: 100%;
+		overflow-x: hidden;
+}
+
+
+/* #Typography
+================================================== */
+
+	h1, h2, h3, h4, h5, h6 {
+		color: #292929;
+		font-weight: 500; }
+	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { font-weight: inherit; }
+	h1 { font-size: 48px; line-height: 51px; margin-bottom: 12px; }
+	h2 { font-size: 36px; line-height: 40px; margin-bottom: 10px; }
+	h3 { font-size: 28px; line-height: 34px; margin-bottom: 8px; }
+	h4 { font-size: 22px; line-height: 30px; margin-bottom: 4px; }
+	h5 { font-size: 19px; line-height: 24px; margin-bottom: 10px; }
+	h6 { font-size: 16px; line-height: 23px; }
+	h2 { letter-spacing: -0.03em; }
+	.subheader { color: #849098; }
+	h1.slight, h2.slight, h3.slight, h4.slight, h5.slight, h6.slight, p.slight { color: #a2a5a7; }
+	h1.extr { font-size:56px; font-weight:100; }
+	h5.helvetic5 { font-family:Helvetica, Arial, sans-serif; font-size: 18px; line-height: 24px; margin-bottom:14px; }
+	h1 strong { font-weight:700; letter-spacing: -0.04em; }
+	h3 strong, h4 strong, h5 strong, h6 strong { font-weight:400;}
+	h3 strong, h4 strong { letter-spacing: -0.02em;}
+	h1.maxtitle { font-size:56px; line-height:60px; font-weight:100;}
+
+	p { margin: 0 0 20px 0; color:#424242; font-size:15px; line-height:24px; font-weight:400; letter-spacing:0.2px; }
+	p img { margin: 0; }
+	p.lead { font-size: 21px; line-height: 27px; color: #818a92;  }
+	p.magic { font-size: 19px; line-height: 25px; margin: 0; }
+
+	em { font-style: italic; }
+	strong { font-weight: bold; }
+	p strong { font-size:14px; }
+	small { font-size: 75%; color: #969a9e; }
+	p small { font-size:12px; font-weight:400; }
+	i:hover { cursor:default;}
+	a i:hover { cursor:pointer;}
+	
+/* Dropcaps */
+    .dropcap1, .dropcap2, .dropcap3 { text-transform:uppercase; line-height:1; float: left; font-size: 44px; margin: 0 8px 0 0; font-family: Times, serif, Arial; }
+	.dropcap2, .dropcap3 {	background: #4a4a4a; color: #fff; display: block; padding:10px; border-radius:5px; margin-top: -2px; }
+	.dropcap3 { background: #0093d0; }
+	
+/* Text Highlights */	
+	.highlight1 { padding:2px 5px; background:#85bc36; color:#fff; vertical-align:baseline; }
+	.highlight2 { padding:2px 5px; background:#f4f4f4; color:#666; vertical-align:baseline; }
+	.highlight3 { padding:3px 6px; background:#0093d0; color:#fff; vertical-align:baseline; }
+	.highlight4 { background-color:#fffdcc; vertical-align:baseline; padding:1px 3px;}
+	
+
+
+	hr { border: solid #e5e5e5; border-width: 1px 0 0; clear: both; margin: 40px 0 35px; height: 0; width: auto; }
+	hr.boldbx { border-width: 4px 0 0; border-color:#efefef; }	
+	.container hr { margin-right: 10px; margin-left: 10px;}
+	.container div hr, .container div hr  { margin-right: 0px; margin-left: 0px;}
+		
+	::selection { background: #e4744f; color: #fff; }
+	::-moz-selection { background: #e4744f; color: #fff; }
+
+
+/* #Links
+================================================== */
+	a, a:visited { color: #0093d0; text-decoration: none; outline: 0; }
+	a:hover, a:focus { color: #ff9900; }
+	p a, p a:visited { line-height: inherit; }
+	a:active { outline:none; opacity: 0.75; }
+
+
+/* #Lists
+================================================== */
+	ul, ol { margin-bottom: 21px; margin-left: 3px; }
+	ul { list-style: none inside; }
+	ol { list-style: decimal inside; }
+	ol, ul.disc { margin-left: 20px; }
+	ul.disc { list-style: disc outside; }
+	ul ul, ul ol,
+	ol ol, ol ul { margin: 4px 0 5px 30px; font-size: 90%;  }
+	ul ul li, ul ol li,
+	ol ol li, ol ul li { margin-bottom: 6px; }
+	li { line-height: 22px; margin-bottom: 4px; font-weight:400; }
+	ul.large li { line-height: 21px; }
+	li p { line-height: 18px; }
+
+/* #Images
+================================================== */
+	img.scale-with-grid {
+		max-width: 100%;
+		height: auto; }
+		
+	img.full-width {
+		width: 100%;
+		height: auto; }
+	p img { margin-bottom:14px;}

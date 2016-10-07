@@ -1,0 +1,133 @@
+/*----------------------------------
+	
+	Webnus WP Documentaion
+	Version: 2.1
+
+	------------------------------------------------------------------------*/
+	@import url('base.css'); /* Import Basic Styles, Typography, Forms etc stylesheet */
+	@import url('scaffolding.css'); /* Import Bootstrap Stylesheet */
+	@import url('icomoon.css'); /* Import Vector Icons Stylesheet */
+	
+	/*-----------------------------------------------------------------------------------*/
+	
+	
+	/* #Site Styles
+	================================================== */
+	#wrap.items .tip, #wrap.tips .item {display:none;}
+	#wrap.items .items-link, #wrap.tips .tips-link{color:#F90;}
+	.title-menu {border-bottom:1px solid #eaeaea; display:table; width:100%}
+	.title-menu a{font-weight:bold; display:table-cell;padding:5px; text-align: center;}
+	.title-menu .items-link{border-right:1px solid #eaeaea}
+	
+	/* WRAPPER */ 
+	
+	#wrap { margin: 0 auto; position: relative; padding: 0; background: #fff; 
+	max-width:1300px; -webkit-box-shadow: 0 0 9px rgba(0,0,0,0.4); -moz-box-shadow: 0 0 7px rgba(0,0,0,0.4); box-shadow: 0 0 7px rgba(0,0,0,0.4); }
+	#header { border-bottom: 4px solid #f3f3f3; position:; background: #fff; width: 100% }
+	#header .desc { margin-top:20px }
+	.logo {margin-top:18px}
+	#header-sm, #footer-sm {display:none}
+	#side-content > section {min-height: 1000px; padding-top: 40px}
+	#side-content section img {padding: 7px;background: #F3F3F3;border-radius: 2px; border: 1px solid #CECECE;margin: 15px auto;  box-sizing: border-box;}
+	#footer {border-top: 4px solid #f3f3f3; color: #969a9e;font-size: 14px; font-family: Arial, Helvetica, sans-serif; text-transform: capitalize; padding: 20px 0; margin: 20px 0;}	
+	.note {color:green; line-height:1.4; font-size: 21px;}
+		
+	#Quick  h3 { margin-bottom:35px;}
+	#Quick p { line-height:1.8; margin-bottom:25px; letter-spacing:0; }
+	#Quick p .qnum { display:block; float:left; width:40px; text-align:left; font-size:25px; font-weight:300; color:#e7432b;}
+	#Quick p strong { font-size:16px; font-weight:400; letter-spacing:0; }
+	#Quick .style4 { color:#74797e; font-size:13px; font-weight:400; padding-top:10px;}
+
+	/* --------------------- */
+	
+	/* Side Nav */
+	
+	#side-nav { z-index:979; margin-top: 15px; position: fixed; height: 100%}
+	#side-nav ul { padding: 10px 20px;background: #fff;border: 4px solid #f3f3f3; list-style: none;overflow-y: auto;height: 90%; border-radius: 16px 0 0 16px;}
+	#side-nav ul li { border-bottom:1px solid #eaeaea; padding:0; margin:0;}
+	#side-nav ul li:last-of-type { border-bottom:0 none;}
+	#side-nav ul li ul { border:0 none; padding:0; padding-left:20px; margin:0; background:#fdfdfd; display:none;}
+	#side-nav li a { display:block; color:#575757; padding:5px 0; text-transform:capitalize; font-size:13px; font-weight:400; letter-spacing:0.2px;  }
+	#side-nav li a:after { float:right;  font-family: 'icomoon'; font-size:8px; color:#878787; content: "\e3b0"; speak: none; font-style: normal; font-weight: normal; text-transform: none; line-height: 3; -webkit-font-smoothing: antialiased;}
+	#side-nav li a:hover, #side-nav li a:hover:after { color:#349A34;}
+	#side-nav li a.active, #side-nav li a.active:after{color: #349A34;}
+	#side-nav ul li ul li a { padding:10px 0; font-size:12px;}
+	#side-nav ul li:hover > ul { display:block;}
+	
+
+	/* #Misc
+	================================================== */
+	
+	/* EXTRAS */
+	
+	.brdr-r1, .brdr-r2 { border-right: 1px solid #e5e5e5; padding-right: 19px; }
+	.brdr-l1, .brdr-l2 { border-left: 1px solid #e5e5e5; padding-left: 19px; }
+	.brdr-r2 { padding-right: 27px; }
+	.brdr-l2 { padding-left: 27px; }
+	.pad-r27 { padding-right: 27px; }
+	.pad-l27 { padding-left: 27px; }
+	.alignright { text-align: right; }
+	img.alignright { float: right; }
+	.alignleft { text-align: left; }
+	img.alignleft { float: left; }
+	.aligncenter { text-align: center; }
+	.wp-caption { display: block; color: #444; }
+	.wp-caption-text { font-size: 15px; }
+	.sticky { color: #555; }
+	.gallery-caption { display: inline; }
+	.bypostauthor { font-size: 13px; }
+	.moonicons-box1 { font-size: 16px; display: inline-block; width: 15em; padding: .25em .5em; background: #fff; margin: .5em 1em .5em 0; border: 1px solid #e8e8e8; }
+	.alignright { text-align: right; }
+	img.alignright { float: right; }
+	.alignleft { text-align: left; }
+	img.alignleft { float: left; }
+	.aligncenter { text-align: center; }
+	.wp-caption { display: block; color: #444; }
+	.wp-caption-text { font-size: 15px; }
+	.sticky { color: #555; }
+	.gallery-caption { display: inline; }
+	.bypostauthor { font-size: 13px; }
+	
+
+	
+	/* Scroll to top */
+	
+	#scroll-top a { width: 16px; height: 16px; padding: 6px 8px 9px; border-radius: 4px; background: #818c90; position: fixed; bottom: 48px; right: 32px; display: none; opacity: 0.89; filter: alpha(opacity=89); z-index: 499841; }
+	#scroll-top a i { font-size: 16px; color: #fff; }
+	#scroll-top a:hover { background-color: #444; cursor: pointer; }
+	
+	
+	/* Iframe */
+	iframe {width: 490px !important;}
+	
+	/* #Media Queries
+	================================================== */
+
+	
+	/* All Mobile Sizes (devices and browser) */
+	@media only screen and (max-width: 992px) {
+
+		#side-nav { position: relative;}
+		#header-sm {display:block;position: relative; top: 0; width: 100%;}
+		#header-sm .logo , #header-sm .desc{ text-align: center; }
+		#footer-sm {display:block; position: relative; bottom: 0; width: 100%; border-top: 4px solid #f3f3f3; color: #969a9e;font-size: 14px; font-family: Arial, Helvetica, sans-serif; text-transform: capitalize; padding: 10px 0; margin: 10px 0;}
+		#side-content section {min-height: 100%;}
+		#header, #footer {display:none;}
+		#side-content section {padding-top: 10px;}		
+		#side-nav ul {border-radius: 16px 16px 0 0}
+		
+	}
+	
+	@media only screen and (min-width: 992px) and (max-width: 1200px) {
+		#side-content {margin-left: 10%}	
+	}
+	@media only screen and (min-width: 992px) {
+		#side-nav ul {width: 100%}
+	}
+
+	/* visual composer screenshot
+	–––––––––––––––––––––––––––––––––––––––––––––––––– */
+    .vcscreen-wrap hr {	border-color:#45A1D6; border-width: 3px 0 0;}
+	.crtbgpg h4 span, .crtpts h4 span, .crtcat h4 span{font-weight: bold;}
+
+	/* ---------------------

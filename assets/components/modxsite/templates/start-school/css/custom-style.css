@@ -1,0 +1,99 @@
+@font-face {
+    font-family: l9908; /* Имя шрифта */
+    src: url(../fonts/9908.otf); /* Путь к файлу со шрифтом */
+}
+
+@font-face {
+    font-family: Gecko_Personal_Use_Only; /* Имя шрифта */
+    src: url(../fonts/Gecko_Personal_Use_Only.ttf); /* Путь к файлу со шрифтом */
+}
+
+@font-face {
+    font-family: Fantazyor; /* Имя шрифта */
+    src: url(../fonts/Fantazyor.ttf); /* Путь к файлу со шрифтом */
+}
+
+@font-face {
+    font-family: BistroC; /* Имя шрифта */
+    src: url(../fonts/BistroC.ttf); /* Путь к файлу со шрифтом */
+}
+
+@font-face {
+    font-family: ds_goose; /* Имя шрифта */
+    src: url(../fonts/ds_goose.ttf); /* Путь к файлу со шрифтом */
+}
+@font-face {
+    font-family: foo_regular; /* Имя шрифта */
+    src: url(../fonts/foo_regular.ttf); /* Путь к файлу со шрифтом */
+}
+header.colorful-header #nav > li > a {
+    font-family:  'foo_regular', 'ds_goose', 'l9908', 'Life Savers', sans-serif !important;
+    font-weight: 100 !important;
+    font-size: 16px !important;
+}
+.kids-t h1, .kids-t h2, .kids-t h3, .kids-t .sidebar .widget, .kids-t .wpb_column .widget{
+    font-family: 'foo_regular', 'ds_goose', 'l9908', 'Life Savers', sans-serif !important;
+}
+#wrap .spl, #wrap .spr {
+    font-family: 'ds_goose', 'l9908', 'Life Savers', sans-serif !important;
+}
+
+.kids-t h4, .kids-t h5, .kids-t h6{
+    font-family: 'ds_goose', 'l9908', 'Life Savers', sans-serif !important;
+}
+
+h3 > span{
+    font-family: 'foo_regular', 'ds_goose', 'l9908', 'Life Savers', sans-serif !important;
+
+}
+
+.icon-box18.blue p, .icon-box18.blue li, .icon-box18.lightblue p, .icon-box18.lightblue li {
+    color: white !important;
+}
+
+a.colorful-header, a.ui-link{
+    font-family: 'foo_regular', 'ds_goose', 'l9908', 'Life Savers', sans-serif !important;
+    font-size: 16px !important;
+    color: #898989 !important;
+}
+p{
+    font-size: 16px !important;
+}
+
+.kids-t .our-clss-type1 .content-wrap span {
+    font-size: 16px;
+    font-family: 'Tahoma', 'Arial Black', sans-serif,  Montserrat;
+}
+
+.textwidget{
+    font-family: 'Tahoma', 'Arial Black', sans-serif !important;
+}
+
+.subtitle{
+    font-family: 'Tahoma', 'Arial Black', sans-serif !important;
+}
+
+#topbar-search input[type="image"] {
+    top: 10px !important;
+    width: 25px;
+    height: 25px;
+}
+
+.ts-hepta.testimonials-slider-w .testimonial-brand img {
+    width: 378px;
+    height: 378px;
+}
+
+.our-team4 figure img {
+    float: left;
+    width: 204px;
+    height: 274px;
+    margin-right: 20px;
+    filter: grayscale(0%);
+    -webkit-filter: grayscale(0%);
+    transition: all 700ms ease 0ms;
+}
+
+.owl-carousel .owl-wrapper-outer {
+    height: 100% !important;
+}
